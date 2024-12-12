@@ -1,6 +1,6 @@
 from werkzeug.security import generate_password_hash
 
-fake_users_db = {
+fake_users_db: dict = {
     "johndoe": {
         "username": "johndoe",
         "full_name": "John Doe",
